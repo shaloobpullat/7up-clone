@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 110px;
+    position:fixed ;
+    background:rgb(247, 154, 131);
+    display: flex;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-family: Helvetica, Arial, sans-serif;
+}
+.logo{
+    width:50%;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: inherit;
+    margin-left: 25px;
+}
+.navi a{
+    padding: 0 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.navi a:hover{
+    text-decoration: underline solid white;
+}
+.imagediv{
+    height: inherit;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+}
+.image{
+    height: 29px;
+    width: 29px;
+    padding: 0 2px;
+}
+.main-1{
+   padding-top: 110px;
+}
+.bgimage{
+    width: 100%;
+    height: 100vh;
+}
+.bgimage img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+}
+#seasons{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 900;
+    font-style:normal;
+    font-size: 35px;
+    line-height: 60px;
+    height: 170px;
+    width:500px ;
+    color: white;   
+    padding-top: 300px;
+    padding-left: 100px;
+}
+.seebt{
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 110px;
+    margin-top: -25px;
+    border:2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 550;
+    color: white;
+}
+.bgimage2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgimage2 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+}
+#greendiv{
+    width: 700px;
+    height: 220px;
+    color: white;
+    background-color:rgba(2, 70, 2, 0.653);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 45px;
+}
+.greenbt{
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    border:2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 550;
+    color: white;
+    margin-top: 20px
+}
+.sevenupbt{
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border:2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 550;
+    color: white;
+    margin-top: 20px;
+}
+footer{
+    background-color: #282828;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.privacy{
+    width: 66%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.privacy a{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0 15px;
+}
+.privacy a:hover {
+text-decoration: underline solid white;
+}
+.lasttext{
+    width: 66%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: x-small;
+}
